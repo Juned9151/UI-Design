@@ -1,0 +1,116 @@
+*
+{
+    
+    padding:0px;
+    margin:0px;
+    
+}
+
+.first{
+    height: 700px;
+    background-image:url(images/51.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top:20px;
+}
+.xxx{
+    padding: 80px;
+}
+
+.red
+{
+    color:red;
+}
+
+.second
+{
+    height: 700px;
+    background-image:url(images/wal2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top:20px;
+}
+
+.third
+{
+    height: 700px;
+    background-image:url(images/wal1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top:20px;
+}
+
+.movie-line
+{
+    display:flex;
+    
+
+}
+.movie-line li
+{
+    list-style: none;
+}
+.casting img
+{
+    width:70px;
+    height:70px;
+    margin-right:10px;
+    cursor:pointer;
+}
+
+body
+{
+    background-image:url(images/wal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*---navbar---*/
+.nvtp
+{
+    background-color: black;
+}
+/*------slider*/
+.sld
+{
+    margin-bottom: 20px;
+    margin-top: 50px;   
+}
+
+.slide1
+{
+    background-image:url(images/5.jpg);
+}
+.casting
+{
+    width:150px;
+    height:150px;
+}
+
+/*---nvtp----*/
+{
+    background-color: black;
+}
+/*---horror movie---*/
+.hrr
+{
+    margin-bottom: 20px;
+}
+.img-area{
+    z-index: -1;
+}
+
+.img-area img
+{
+    
+    cursor: pointer;
+   
+
+}
+
+.img-area:hover  img{
+    transform:scale(1.5);
+    transition: all 1s;
+    z-index: 99;
+    width:200px;
+    height:100px;
+}
